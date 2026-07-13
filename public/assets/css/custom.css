@@ -1,0 +1,489 @@
+.sign_up {
+  height: 100vh;
+}
+
+.login_btn:hover {
+  color: white !important;
+}
+
+.navbar-header {
+  height: 70px !important;
+}
+th.sorting_asc {
+  width: 50px !important;
+}
+
+thead tr:first-child th {
+  width: 90px !important;
+}
+
+.navbar-brand {
+  width: 18.8% !important;
+  border-right: 1px solid rgba(72, 94, 144, 0.16);
+}
+
+.navbar-brand .df-logo img {
+  width: 140px;
+  margin-top: 8px;
+}
+
+.navbar-menu .nav-item.with-sub .nav-link::after {
+  display: none !important;
+}
+
+.navbar-menu {
+  max-width: 100% !important;
+}
+
+.side_bar {
+  width: 15%;
+  overflow: auto;
+  min-height: calc(100vh - 70px);
+  padding: 30px 15px 0 20px;
+  border-right: 1px solid rgba(72, 94, 144, 0.16);
+}
+
+.contents {
+  flex: 1;
+  width: 80%;
+}
+
+.avatar-xxl.avatar-online::after {
+  display: none;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+#units .section-divider {
+  margin-bottom: 15px;
+}
+
+#units .custom-select {
+  margin-bottom: 20px;
+}
+
+.mt-minus {
+  position: absolute;
+  top: -25px;
+}
+
+.avatar img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.avatar-xxl {
+  width: auto !important;
+  height: auto !important;
+}
+
+.set_width {
+  width: 20%;
+}
+
+.set_width h3 {
+  font-size: 20px !important;
+}
+
+.pr {
+  padding-right: 25px;
+}
+
+.w-165 {
+  min-width: 165px;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.custom-btn {
+  outline: none;
+  background: none;
+  border-radius: 5px;
+  padding: 3px 20px 2px;
+  border: 1px solid #cecece;
+}
+
+.vertical-align td,
+.vertical-align th {
+  vertical-align: middle !important;
+}
+
+.nav-link svg {
+  margin-top: -5px;
+}
+
+.dataTables_length {
+  display: none;
+}
+
+.dataTables_filter {
+  display: none;
+}
+
+.action_buttons a svg {
+  width: 18px;
+  height: 18px;
+}
+
+.action_buttons a i {
+  top: 3px;
+  color: #4693ff;
+  font-size: 16px;
+  position: relative;
+}
+
+.status_active {
+  color: white;
+  background: #5bbd5b94;
+  display: inline-block;
+  border: 1px solid #00c700;
+  padding: 1px 5px 0;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.status_in_active {
+  color: white;
+  background: #f9950094;
+  display: inline-block;
+  border: 1px solid #ce9108;
+  padding: 1px 5px 0;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.set_modal_width {
+  max-width: 650px !important;
+}
+
+.boxFocus {
+  border-radius: 5px;
+  box-shadow: 0 0 0 0.2rem rgba(1, 104, 250, 0.25);
+}
+
+.clickInput {
+  border-radius: 5px !important;
+}
+
+.w-120 {
+  min-width: 120px;
+}
+
+.nav-classic ul li {
+  list-style: none;
+}
+
+.set_dropdown_icon:after {
+  right: 0;
+  position: absolute;
+}
+
+.side_bar_dropdown .dropdown-menu {
+  border: 0;
+  width: 100%;
+  box-shadow: 0 0 0 0;
+  padding-left: 15px;
+  position: relative !important;
+  transform: translate3d(0, 0, 0) !important;
+}
+
+.side_bar_dropdown .dropdown-menu a {
+  color: #1b2e4b;
+  font-size: 14px;
+  font-weight: 500;
+  background: none;
+}
+
+.side_bar_dropdown .dropdown-menu a:hover {
+  color: #0168fa;
+}
+
+.side_bar_dropdown .dropdown-menu a.active {
+  color: #0168fa;
+}
+
+.profile_avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.profile_avatar label {
+  cursor: pointer;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+}
+
+.profile_avatar label:hover {
+  transition: all 0.5s ease;
+  background: rgba(0, 0, 0, 0.54);
+}
+
+.profile_avatar label svg {
+  color: white;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.profile_avatar label:hover svg {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.profile_avatar #upload-photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.dropdown-notification .avatar img {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.set_card_height .card {
+  height: 367px;
+  overflow: auto;
+}
+
+.mt-minus-15 {
+  margin-top: -15px;
+}
+
+.social_links .nav-classic .nav-link {
+  padding-left: 20px;
+  position: relative;
+}
+
+.social_links .nav-classic .nav-link i {
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  position: absolute;
+}
+
+.set-min-height {
+  min-height: 478px;
+}
+
+.set-min-height-bar-graph-revenue {
+  min-height: 350px;
+}
+
+.added_border_top {
+  border-top-width: 1px !important;
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
+
+.switch-button.switch-button-yesno label:before {
+  content: "NO"
+}
+
+.switch-button.switch-button-yesno input[type=checkbox]:checked+span label:before {
+  content: "YES"
+}
+
+.set_icon_color i {
+  color: #bbbbbb;
+  font-size: 22px;
+  padding-top: 2px;
+}
+
+.datatable td span {
+  padding: 6px;
+  display: block;
+  word-break: break-all;
+}
+
+
+/* The container */
+
+.checkbox_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* Hide the browser's default checkbox */
+
+.checkbox_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+/* Create a custom checkbox */
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+
+/* On mouse-over, add a grey background color */
+
+.checkbox_container:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.checkbox_container input:checked~.checkmark {
+  background-color: #2196F3;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+.checkbox_container input:checked~.checkmark:after {
+  display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.checkbox_container .checkmark:after {
+  left: 9px;
+  top: 4px;
+  width: 7px;
+  height: 14px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.card .card-body {
+  min-height: 333px;
+}
+
+span.color_red {
+  color: red;
+}
+
+.table.dataTable {
+  width: 100% !important;
+  /*display: block;*/
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.user_roles_label {
+    display: table !important;
+}
+
+/*.dataTables_scrollBody thead {display: none !important;}*/
+
+#toolbar {
+  position: fixed !important;
+  position: absolute;
+  height: 25px;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  z-index: 100;
+  font-size: 12px;
+}
+
+.dt-buttons {
+  padding: 6px;
+  text-align: right;
+}
+
+.dt-buttons button {
+  background: #3270f7;
+  border: 0;
+  padding: 6px;
+  width: 7%;
+  color: #fff;
+}
+
+button[state="menu"] {
+  border: 0!important;
+  background: transparent!important;
+}
+
+button[state="menu"]:focus {
+  outline: none !important;
+}
+
+table.dataTable thead th:nth-child(4), table.dataTable thead th:nth-child(5), table.dataTable thead th:nth-child(6), table.dataTable thead th:nth-child(7) {
+  width: 180px !important;
+}
+
+table#datatable-subscriptions thead th:nth-child(5) {
+    width: 170px !important;
+}
+
+table#datatable-subscriptions thead th:nth-child(6) {
+    width: 270px !important;
+}
+
+table.dataTable thead th {
+    font-size: 11px !important;
+  }
+
+  table.dataTable tbody td{
+    font-size: 9px;
+  }
+
+  table.dataTable thead .sorting::before, table.dataTable thead .sorting::after{
+    font-size: 9px !important;
+    right: 5px !important;
+  }
+
+
+
+@media screen and (min-width: 1775px){
+  table.dataTable thead th {
+    font-size: 14px !important;
+  }
+
+  table.dataTable tbody td{
+    font-size: 14px;
+  }
+}
